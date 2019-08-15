@@ -1,5 +1,6 @@
 @import "bootstrap";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import "font-awesome"; 
 
 .navbar {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -106,4 +107,42 @@ body {
 .lesson a b {
   font-weight: 100;
   font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4ee #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.lessons li {
+  background: #2a2a2a;
+  color: white;
+  margin: 10px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100px;
+}
+
+.lessons li p {
+  margin: 0;
 }
