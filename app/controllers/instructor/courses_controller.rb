@@ -2,6 +2,10 @@ class Instructor::CoursesController < ApplicationController
   before_action :authenticate_user!
   before_action :require_authorized_for_current_course, only: [:show]
 
+  def new
+    @course = Course.new
+  end
+
   def create
     @course = current_user.courses.create(course_params)
     if @course.valid?     
